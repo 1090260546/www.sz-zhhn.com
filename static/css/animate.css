@@ -1,0 +1,101 @@
+/**/
+/* CSS Document */
+/*-- 提倡互联网共享,同时应尊重原创作者,网站制作属: lijia xiong --*/
+/*QQ：897232289*/
+/*html5*/
+/*动画样式*/
+
+/*FadeInUp*/
+.FadeInUp {
+    opacity: 0;
+    -webkit-transform: translateY(50px);
+    transform: translateY(50px);
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
+}
+
+.AddFadeInUp {
+    opacity: 1;
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+}
+
+
+.daley1 {
+    -webkit-transition-delay: 50ms;
+    transition-delay: 50ms;
+}
+
+.daley2 {
+    -webkit-transition-delay: 100ms;
+    transition-delay: 100ms;
+}
+
+.daley3 {
+    -webkit-transition-delay: 150ms;
+    transition-delay: 150ms;
+}
+.daley3 {
+    -webkit-transition-delay: 150ms;
+    transition-delay: 150ms;
+}
+.daley4 {
+    -webkit-transition-delay: 200ms;
+    transition-delay: 200ms;
+}
+.daley5 {
+    -webkit-transition-delay: 250ms;
+    transition-delay: 250ms;
+}
+.daley6 {
+    -webkit-transition-delay: 300ms;
+    transition-delay: 300ms;
+}
+.daley7 {
+    -webkit-transition-delay: 350ms;
+    transition-delay: 350ms;
+}
+.daley8 {
+    -webkit-transition-delay: 400ms;
+    transition-delay: 400ms;
+}
+.daley9 {
+    -webkit-transition-delay: 450ms;
+    transition-delay: 450ms;
+}
+.daley10 {
+    -webkit-transition-delay: 500ms;
+    transition-delay: 500ms;
+}
+.daley11 {
+    -webkit-transition-delay: 650ms;
+    transition-delay: 650ms;
+}
+.daley12 {
+    -webkit-transition-delay: 700ms;
+    transition-delay: 700ms;
+}
+.daley13 {
+    -webkit-transition-delay: 750ms;
+    transition-delay: 750ms;
+}
+.daley14 {
+    -webkit-transition-delay: 800ms;
+    transition-delay: 800ms;
+}
+.daley15 {
+    -webkit-transition-delay: 850ms;
+    transition-delay: 850ms;
+}
+.daley16 {
+    -webkit-transition-delay: 900ms;
+    transition-delay: 900ms;
+}
+.daley17 {
+    -webkit-transition-delay: 950ms;
+    transition-delay: 950ms;
+}
+.daley18 {
+    -webkit-transition-delay: 1000ms;
+    transition-delay: 1000ms;
+}

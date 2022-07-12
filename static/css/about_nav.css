@@ -1,0 +1,32 @@
+.about_nav_div {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .about_nav_div {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        position: fixed;
+        top: 66px;
+        left: 0;
+        background: #373737;
+        z-index: 10;
+    }
+
+    .about_nav_div li {
+        height: 40px;
+    }
+
+    .about_nav_div li a {
+        padding: 0 10px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .about_nav_div li .active {
+        color: rgb(49, 242, 254);
+    }
+}

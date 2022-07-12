@@ -1,0 +1,18 @@
+@media screen and (max-width: 1200px) {
+    .zhhn_word_style {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .atmosphere_content_tab .zhhn_word_style .swiper-slide {
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    .culture_slide_tit,.culture_slide_en,.culture_slide_text {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}

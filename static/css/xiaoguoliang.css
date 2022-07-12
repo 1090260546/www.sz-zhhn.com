@@ -1,0 +1,90 @@
+/**/
+/* CSS Document */
+/*-- 这个页面是由后续人员补充的（肖国梁备注） --*/
+/*QQ：532226007*/
+.partner_tab_item .lnk {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    background: #292929;
+}
+
+.partner_tab_item:nth-child(1) .lnk,
+.partner_tab_item:nth-child(3) .lnk,
+.partner_tab_item:nth-child(4) .lnk,
+.partner_tab_item:nth-child(5) .lnk,
+.partner_tab_item:nth-child(6) .lnk,
+.partner_tab_item:nth-child(8) .lnk,
+.partner_tab_item:nth-child(9) .lnk {
+    background: #212121;
+}
+.partner_tab_item .lnk:hover .partner_tab_img:after {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    opacity: 1;
+    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+}
+
+.partner_tab_item .lnk:hover .partner_tab_img img {
+    height: 70%;
+    left: 10%;
+    width: 80%;
+    -webkit-transition: all .6s 100ms ease;
+    transition: all .6s 100ms ease;
+}
+
+.partner_tab_item .lnk:hover .partner_tab_icon {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+    -webkit-transition-delay: 100ms;
+    transition-delay: 100ms;
+}
+.partner_tab_item .lnk:hover .partner_gray_img {
+    opacity: 0;
+    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+    -webkit-transition-delay: 100ms;
+    transition-delay: 100ms;
+}
+
+.partner_tab_item .lnk:hover .partner_color_img {
+    opacity: 1;
+    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+    -webkit-transition-delay: 100ms;
+    transition-delay: 100ms;
+}
+
+.partner_tab_item .lnk:hover .partner_icon_box {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    -webkit-transition: all .6s ease;
+    transition: all .6s ease;
+    -webkit-transition-delay: 600ms;
+    transition-delay: 600ms;
+}
+@media screen and (max-width: 1200px){
+    .partner_tab_item .lnk {
+        background: #292929 !important;
+    }
+    .partner_tab_item:nth-child(1) .lnk,
+    .partner_tab_item:nth-child(3) .lnk,
+    .partner_tab_item:nth-child(5) .lnk,
+    .partner_tab_item:nth-child(7) .lnk,
+    .partner_tab_item:nth-child(9) .lnk {
+        background: #212121 !important;
+
+    }
+    .partner_tab_item:nth-child(9) .lnk {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    .partner_tab_item .lnk:hover .partner_tab_img img {
+        height: 64%;
+    }
+}
+

@@ -1,0 +1,12 @@
+@media screen and (max-width: 1200px) {
+    .partner_box .partner_box_left {
+        width: 90%;
+        position: static;
+        margin-left: 5%;
+    }
+    .partner_box .partner_box_right {
+        width: 90%;
+        position: static;
+        margin-left: 5%;
+    }
+}

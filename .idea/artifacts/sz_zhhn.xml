@@ -1,0 +1,11 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sz-zhhn">
+    <output-path>$PROJECT_DIR$/out/artifacts/sz_zhhn</output-path>
+    <root id="archive" name="sz-zhhn.war">
+      <element id="dir-copy" path="$PROJECT_DIR$/sz-zhhn" />
+      <element id="directory" name="sz-zhhn">
+        <element id="archive" name="archive.jar" />
+      </element>
+    </root>
+  </artifact>
+</component>
