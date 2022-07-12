@@ -177,6 +177,10 @@
     background: url();
 }
 
+.public_nav_box {
+    transform: translateY(0);
+}
+
 .tran_content_header,
 .tran_content,
 .tran_content_footer,
