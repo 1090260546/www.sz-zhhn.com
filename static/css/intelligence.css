@@ -68,6 +68,16 @@
     top: 0;
 }
 
+.inteli_img_title p:nth-of-type(1) {
+    /* width: 216px;  */
+    left: 24.5%;
+}
+
+.inteli_img_title p:nth-of-type(2) {
+    /* width: 108px;  */
+    left: 65.2%;
+}
+
 .inteli_frit_img {
     width: 100%;
     display: flex;
