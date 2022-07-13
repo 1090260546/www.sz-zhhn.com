@@ -335,6 +335,7 @@ img {
 .intell_swpier_box .intelligence_swiper .swiper-wrapper p {
     width: 96%;
     font-size: 20px;
+    min-height: 120px;
     line-height: 40px;
     color: #fff;
     margin: 0 auto;
