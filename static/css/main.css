@@ -6133,9 +6133,10 @@ textarea:-ms-input-placeholder {
     left: 0;
     z-index: 9;
     width: 100%;
-    height: 200px;
+    height: 70px;
     -webkit-align-items: flex-end;
     align-items: flex-end;
+    background: rgba(255, 255, 255, .03);
 }
 
 .public_nav_wrap:after {
@@ -6145,9 +6146,8 @@ textarea:-ms-input-placeholder {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url(../image/nav_after.png) repeat-x;
-    -webkit-transform: translateY(100%);
-    transform: translateY(100%);
+    /* background: url(../image/nav_after.png) repeat-x; */
+    background: rgba(255,255,255,0.03);
 }
 
 .public_nav_box {
@@ -10374,11 +10374,7 @@ textarea:-ms-input-placeholder {
 
 /**/
 .AddPublicMbxTop:after {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    -webkit-transition: all .7s ease-in-out;
     transition: all .7s ease-in-out;
-    -webkit-transition-delay: 1.3s;
     transition-delay: 1.3s;
 }
 

@@ -189,6 +189,22 @@
     position: relative;
 }
 
+.plan_content_boder {
+    width: 100%;
+    position: relative;
+    padding-top: 80px;
+    padding-bottom: 160px;
+    /* background: #fff; */
+}
+
+.none_padding {
+    padding-top: 10px;
+}
+
+.other_background {
+    background: rgba(255,255,255,0.1);
+}
+
 .transtion_all_2s_esase {
     /* transition: all 2s ease; */
 }

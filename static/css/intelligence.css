@@ -265,8 +265,8 @@
 
 .intell_swpier_box {
     width: 100%;
-    background: linear-gradient(to bottom, #05183F, #1D2E50);
-    border-top: 1px solid #0B3457;
+    /* background: linear-gradient(to bottom, #05183F, #1D2E50);
+    border-top: 1px solid #0B3457; */
 }
 
 .intell_swpier_box .swiper_nav {
