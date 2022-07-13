@@ -292,7 +292,7 @@
     display: block;
     width: 3px;
     height: 22px;
-    background: #213153;
+    background: rgba(255, 255, 255, 0.1);
     margin: 0 10%;
 }
 
@@ -315,6 +315,7 @@ img {
     flex-wrap: wrap;
     background: linear-gradient(to top, #30405F, #081B41);
     padding-bottom: 20px;
+    padding-top: 10px;
 }
 
 .intell_swpier_box .intelligence_swiper .swiper-wrapper .swiper-slide {

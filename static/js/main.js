@@ -530,6 +530,7 @@ var IqwXiongJs = {
             TouchMove = true;
         }
         that.intelTab = new Swiper('.intelligence_swiper', {
+            effect: 'fade',
             autoplay: false,//可选选项，自动滑动
             loopAdditionalSlides: 0,
             allowTouchMove: TouchMove
