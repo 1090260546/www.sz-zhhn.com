@@ -544,7 +544,7 @@ textarea:-ms-input-placeholder {
     height: 100%;
     left: 0;
     top: 0;
-    object-fit: cover;
+    /* object-fit: cover; */
 }
 
 .flex {
@@ -1245,7 +1245,7 @@ textarea:-ms-input-placeholder {
 
 .header_nav_link {
     pointer-events: auto;
-    font-size: 18px;
+    font-size: 24px;
     line-height: 30px;
     color: #fff;
     -webkit-transition: all .5s ease;
@@ -6535,14 +6535,14 @@ textarea:-ms-input-placeholder {
     height: 100%;
 }
 
-.plat_tab_img img {
+/* .plat_tab_img img {
     left: -10%;
     top: -10%;
     width: 120%;
     height: 120%;
     -webkit-transition: all .8s ease-in-out;
     transition: all .8s ease-in-out;
-}
+} */
 
 .plat_tab_img:after {
     content: "";
@@ -6565,10 +6565,10 @@ textarea:-ms-input-placeholder {
 .core_tab_active .plat_tab_img img {
     width: 100%;
     height: 100%;
-    left: 0;
+    /* left: 0;
     top: 0;
     -webkit-transition-delay: .6s;
-    transition-delay: .6s;
+    transition-delay: .6s; */
 }
 
 .core_chip_black {
@@ -7886,7 +7886,7 @@ textarea:-ms-input-placeholder {
 }
 
 .core_round_item_text {
-    font-size: 18px;
+    font-size: 24px;
     color: #fff;
 }
 
@@ -11317,7 +11317,7 @@ textarea:-ms-input-placeholder {
 
 .AddPublicMbx .public_nav_link a {
     line-height: 60px;
-    font-size: 14px;
+    font-size: 18px;
     color: rgba(255, 255, 255, .7);
 }
 

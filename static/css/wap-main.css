@@ -3862,7 +3862,7 @@
     }
 
     .core_round_item_text {
-        font-size: 14px;
+        font-size: 24px;
     }
 
     .core_round_item5 .core_round_item_text, .core_round_item6 .core_round_item_text, .core_round_item7 .core_round_item_text, .core_round_item8 .core_round_item_text {
@@ -4554,7 +4554,7 @@
     }
 
     .header_nav_link {
-        font-size: 18px;
+        font-size: 22px;
     }
 
     .header_nav_item {
@@ -4849,7 +4849,7 @@
 
     .AddPublicMbx .public_nav_link a {
         line-height: 48px;
-        font-size: 13px;
+        font-size: 16px;
         padding: 0 40px;
     }
 
