@@ -1549,7 +1549,9 @@
     }
 
     .core_round_box {
+        height: 354px;
         margin-top: 0;
+        padding-left: 0;
     }
 
     .core_content_box {
@@ -2458,11 +2460,13 @@
     }
 
     .core_round_item_tit {
-        -webkit-align-items: center;
         align-items: center;
         margin-left: 10px;
-        width: 140px;
+        width: 148px;
+    }
 
+    .AddChipRoundBox .core_round_center {
+        margin-left: 20px;
     }
 
     .core_round_item1 .core_round_item_tit,
