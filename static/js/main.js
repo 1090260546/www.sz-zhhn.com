@@ -2046,15 +2046,6 @@ var IqwXiongJs = {
         var queue = new createjs.LoadQueue(false);
         // queue.installPlugin(createjs.Sound); //预加载音频
         queue.loadManifest([
-            "image/he/Frame 100.png",
-            "image/he/Frame 101.png",
-            "image/he/Frame 102.png",
-            "image/he/Frame 103.png",
-            "image/he/Frame 95.png",
-            "image/he/Frame 96.png",
-            "image/he/Frame 97.png",
-            "image/he/Frame 98.png",
-            "image/he/Frame 99.png",
             "image/zhhn.png",
         ], true, "static/");
         //监听进度事件
