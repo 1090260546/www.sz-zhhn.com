@@ -1319,6 +1319,10 @@
         height: 46vh;
     }
 
+    .join_h5_page .public_page_banner {
+        height: 32vh;
+    }
+
     .public_nav_wrap {
         display: none;
     }
