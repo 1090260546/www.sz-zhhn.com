@@ -8156,9 +8156,15 @@ textarea:-ms-input-placeholder {
     transform: translateY(0);
 }
 
+.core_foot_item .core_content_min {
+    height: 22px;
+}
+
 .core_content_item:hover .core_content_min,
 .core_foot_item:hover .core_content_min {
     opacity: 1;
+    height: auto;
+    /* max-height: 70px; */
 }
 
 .core_content_label {
